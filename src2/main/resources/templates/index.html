@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>컵라면 키오스크</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🍜 컵라면 키오스크</h1>
+        <div class="category">
+            <button onclick="loadRamen('국물')">국물라면</button>
+            <button onclick="loadRamen('볶음')">볶음라면</button>
+            <button onclick="loadRamen('찌개')">찌개라면</button>
+        </div>
+        <div id="ramen-list" class="ramen-list"></div>
+    </div>
+</body>
+</html>
